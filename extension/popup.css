@@ -1,0 +1,78 @@
+/* General dark background and fonts */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  width: 300px;
+  padding: 15px;
+}
+
+/* Container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title styling */
+h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #00ffea;
+  text-shadow: 0 0 5px #00ffea;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  resize: none;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 0 0 5px #00ffea33;
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #00ffea, #00cfff);
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px #00000055;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px #00ffea55;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  width: 100%;
+  text-align: center;
+  box-shadow: inset 0 0 5px #00ffea33;
+}
+
+#result.fade {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
