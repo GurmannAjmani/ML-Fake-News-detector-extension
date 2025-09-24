@@ -1,8 +1,17 @@
 # News Detector
 
-A machine learning-based fake news detection system. This project provides a backend API for classifying news headlines or articles as "True" or "Fake" using a trained Random Forest model, and a browser extension frontend for easy access.
+A machine learning-based **fake news detection system**.  
+This project provides:  
+- A **backend API** (FastAPI) for classifying news headlines or articles as **"True"** or **"Fake"** using a trained Random Forest model.  
+- A **browser extension frontend** for quick and fun access.  
+
+Live API: [https://ml-fake-news-detector-extension.onrender.com](https://ml-fake-news-detector-extension.onrender.com) 🚀
+
+---
 
 ## Project Structure
+
+
 
 ```
 news-detector/
@@ -26,43 +35,23 @@ news-detector/
     └── popup.css                  
 ```
 
-## Features
 
-- **Backend**: Fast API for news classification using a pre-trained model.
-- **Frontend**: Browser extension for quick news verification.
-- **Preprocessing**: Consistent text preprocessing for both training and inference.
+---
 
-## Setup & Reproduction
+## ✨ Features
+
+- **Backend**: FastAPI serving a pre-trained Random Forest model.  
+- **Frontend**: Browser extension (dark mode UI) for fast verification.  
+- **Preprocessing**: Consistent text preprocessing (tokenization, stopword removal, padding).  
+
+---
+
+## 🔧 Setup & Reproduction
 
 ### 1. Backend
 
-#### Prerequisites
 
-- Python 3.8+
-- (Recommended) Create a virtual environment:
-  ```
-  python -m venv venv
-  source venv/bin/activate  # On Windows: venv\Scripts\activate
-  ```
-
-#### Install dependencies
-
-```
-cd backend
-pip install -r requirements.txt
-```
-
-#### Run the backend server
-
-```
-python main.py
-```
-
-The API should now be running.
-
-#### Test the backend
-
-You can use `tester.py` 
+The backend is already deployed on Render: https://ml-fake-news-detector-extension.onrender.com/predict
 
 ### 2. Browser Extension
 
