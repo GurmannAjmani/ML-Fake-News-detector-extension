@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000/predict";
+const API_URL = "https://ml-fake-news-detector-extension.onrender.com/predict";
 
 document.getElementById("checkBtn").addEventListener("click", async () => {
   const inputText = document.getElementById("newsInput").value;
