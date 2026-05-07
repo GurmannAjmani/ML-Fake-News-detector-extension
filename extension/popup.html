@@ -7,12 +7,15 @@
 </head>
 <body>
   <div class="container">
-    <h1>📰 News Detector</h1>
+    <h1>News Detector</h1>
     <textarea id="newsInput" placeholder="Paste news text here..."></textarea>
-    <button id="checkBtn">🔍 Check</button>
+    <div class="mode-row">
+      <input type="checkbox" id="devMode">
+      <label for="devMode">Local dev mode (localhost:8000)</label>
+    </div>
+    <button id="checkBtn">Check</button>
     <p id="result"></p>
   </div>
-
   <script src="popup.js"></script>
 </body>
 </html>
