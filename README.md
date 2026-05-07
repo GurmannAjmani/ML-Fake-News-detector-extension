@@ -5,7 +5,7 @@ This project provides:
 - A **backend API** (FastAPI) for classifying news headlines or articles as **"True"** or **"Fake"** using a trained Random Forest model.  
 - A **browser extension frontend** for quick and fun access.  
 
-Live API: [https://ml-fake-news-detector-extension.onrender.com](https://ml-fake-news-detector-extension.onrender.com) 🚀
+Live API: [https://ml-fake-news-detector-extension.onrender.com](https://ml-fake-news-detector-extension.onrender.com) 
 
 ---
 
@@ -38,7 +38,7 @@ news-detector/
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Backend**: FastAPI serving a pre-trained Random Forest model.  
 - **Frontend**: Browser extension (dark mode UI) for fast verification.  
@@ -46,7 +46,7 @@ news-detector/
 
 ---
 
-## 🔧 Setup & Reproduction
+##  Setup & Reproduction
 
 ### 1. Backend
 
